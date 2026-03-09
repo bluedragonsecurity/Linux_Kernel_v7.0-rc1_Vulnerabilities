@@ -150,7 +150,7 @@ Freed by task 14441:
 **Subsystem:** `fs/fuse/dev.c`  
 **Type:** KASAN use-after-free (Write, size 2)  
 **Triggered by:** `syz.0.17` via `write()` syscall to FUSE device  
-**Hardware:** Google Compute Engine
+
 
 **Call Chain:**
 ```
@@ -270,7 +270,7 @@ Freed by task 15:
 **Subsystem:** `drivers/tty/vt/vt.c`  
 **Type:** KASAN slab-out-of-bounds (Write, size 2)  
 **Triggered by:** `syz.2.556` via `write()` to TTY  
-**Hardware:** Google Compute Engine
+
 
 **Call Chain:**
 ```
@@ -309,7 +309,7 @@ Freed by task 8646:
 **Subsystem:** `kernel/futex/core.c`  
 **Type:** KASAN slab-use-after-free (Read, size 1)  
 **Triggered by:** `syz.0.19` via `futex()` syscall  
-**Hardware:** Google Compute Engine
+
 
 **Call Chain:**
 ```

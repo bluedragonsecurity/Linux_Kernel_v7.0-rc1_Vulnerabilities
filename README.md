@@ -1,12 +1,5 @@
 # 🐧 Linux Kernel v7.0-rc1 — Bug / Vulnerability Report
 
-> **Author:** Antonius (w1sdom)  
-> **Website:** [www.bluedragonsec.com](http://www.bluedragonsec.com)  
-> **GitHub:** [github.com/bluedragonsec](https://github.com/bluedragonsec)  
-> **Discovery Method:** Fuzzing  
-> **Discovery Date:** March 2026
-
----
 
 ## 📋 Summary
 

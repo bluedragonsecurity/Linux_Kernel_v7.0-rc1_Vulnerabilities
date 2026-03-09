@@ -1,7 +1,7 @@
-# 🐧 Linux Kernel v7.0-rc1 — Bug / Vulnerability Report
+# Linux Kernel v7.0-rc1 — Bug / Vulnerability Report
 
 
-## 📋 Summary
+## Summary
 
 8 vulnerabilities discovered in Linux Kernel **v7.0-rc1** through fuzzing:
 
@@ -16,11 +16,11 @@
 | 7 | `slab-out-of-bounds` Write | `do_con_write` |
 | 8 | `slab-use-after-free` Read | `futex_unqueue` |
 
-> ⚠️ **Vulnerability Notes:** All findings require further analysis.
+>  **Vulnerability Notes:** All findings require further analysis.
 
 ---
 
-## 🔍 Vulnerability Details
+## Vulnerability Details
 
 ### 1. slab-use-after-free Read in `sock_def_readable`
 
@@ -345,7 +345,7 @@ Freed by task 6038:
 </details>
 
 
-## 📊 Bug Classification
+##  Bug Classification
 
 | # | Subsystem | Bug Class | Access Type | Size |
 |---|-----------|-----------|-------------|------|

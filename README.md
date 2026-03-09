@@ -2,7 +2,7 @@
 
 ## Summary
 
-8 vulnerabilities discovered in Linux Kernel **v7.0-rc1** through fuzzing:
+8 vulnerabilities discovered in Linux Kernel **v7.0-rc1**
 
 | # | Bug Type | Location |
 |---|----------|----------|

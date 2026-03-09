@@ -351,20 +351,6 @@ Freed by task 6038:
 ```
 </details>
 
----
-
-## 🧪 Environment
-
-| Property | Value |
-|----------|-------|
-| Kernel | Linux v7.0-rc1 |
-| Tool | syzkaller |
-| Sanitizer | KASAN |
-| Hardware | QEMU Q35 + ICH9 / Google Compute Engine |
-| BIOS | 1.16.3-debian / Google 02/12/2026 |
-| Kernel Config | `PREEMPT(full)`, `SMP`, `KASAN`, `NOPTI` |
-
----
 
 ## 📊 Bug Classification
 
@@ -378,13 +364,3 @@ Freed by task 6038:
 | 6 | `kernel/bpf` (kmem trace) | use-after-free | Read | 8 bytes |
 | 7 | `drivers/tty/vt` | out-of-bounds | Write | 2 bytes |
 | 8 | `kernel/futex` | use-after-free | Read | 1 byte |
-
----
-
-## ⚠️ Disclaimer
-
-These vulnerabilities were discovered through automated fuzzing for research purposes. All findings have been documented for responsible disclosure. Further analysis is required to determine full exploitability and impact.
-
----
-
-*Report generated from fuzzing session — March 2026*

@@ -1,5 +1,4 @@
-# Linux Kernel v7.0-rc1 — Bug / Vulnerability Report
-
+# Linux Kernel v7.0-rc1 Vulnerabilities
 
 ## Summary
 

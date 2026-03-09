@@ -2,7 +2,7 @@
 
 ## Summary
 
-8 vulnerabilities discovered in Linux Kernel **v7.0-rc1**
+8 vulnerabilities discovered in Linux Kernel **v7.0-rc1** - **v7.0-rc3**
 
 | # | Bug Type | Location |
 |---|----------|----------|
